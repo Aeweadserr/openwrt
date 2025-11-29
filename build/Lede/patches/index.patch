@@ -2,15 +2,17 @@ diff --git a/package/lean/autocore/files/x86/index.htm b/package/lean/autocore/f
 index 0f61c93..f4c0791 100644
 --- a/package/lean/autocore/files/x86/index.htm
 +++ b/package/lean/autocore/files/x86/index.htm
-@@ -751,6 +751,22 @@
-
+@@ -751,6 +751,15 @@
+ 
 +<fieldset class="cbi-section">
-+	<div style="display: flex; justify-content: flex-start; gap: 10px;">
-+		<input type="button" class="cbi-button cbi-button-apply" value="<%:更新教程%>" onclick="window.open('https://github.com/shidahuilang/openwrt')" />
-+		<input type="button" class="cbi-button cbi-button-apply" value="<%:固件下载%>" onclick="window.open('https://github.com/shidahuilang/openwrt/releases')" />
++	<div style="display: flex; justify-content: flex-start; gap: 10px; margin-bottom: 10px;">
++		<input type="button" class="cbi-button cbi-button-apply" value="<%:更新教程%>"
++			onclick="window.open('https://github.com/shidahuilang/openwrt', '_blank')" />
++		<input type="button" class="cbi-button cbi-button-apply" value="<%:固件下载%>"
++			onclick="window.open('https://github.com/shidahuilang/openwrt/releases', '_blank')" />
 +	</div>
 +</fieldset>
-
++
  <fieldset class="cbi-section">
  	<legend><%:Memory%></legend>
  
