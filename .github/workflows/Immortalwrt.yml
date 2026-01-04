@@ -10,10 +10,10 @@ on:
       REPO_BRANCH:
         description: '天灵源码-请选择分支'
         required: true
-        default: 'openwrt-24.10.4'
+        default: 'openwrt-24.10'
         type: choice
         options:
-          - 'openwrt-24.10.4'
+          - 'openwrt-24.10'
           - 'master'
       CONFIG_FILE:
         description: '请选择[seed文件夹内]的配置文件'
